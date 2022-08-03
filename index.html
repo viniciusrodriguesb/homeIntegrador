@@ -1,0 +1,259 @@
+<!-- COISAS QUE AINDA NAO DEU TEMPO DE FAZER :
+
+-BUTTONS DO JEITO QUE VOCE PLANEJOU COM OS HOVERS ETC...
+-CARDS COM HOVER NA SECTION DE SERVICES
+-FORMULARIO
+
+----- QUALQUER ERRO DE SINTAXE, CSS, QUE EU TENHA FEITO, FIQUE A VONTADE PRA CORRIGIR
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <!-- PAGE INFO -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Wallet</title>
+
+    <link rel="shortcut icon" href="assets/fotos/icons8-trade-64.png" type="image/x-icon">
+
+    <!-- Icones -->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+
+    <!-- SWIPER -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">My Wallet <i class="fas fa-coins"></i></a>
+        <!-- menu -->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Home</a></li>           
+            <li><a class="title" href="#services">Services</a></li>
+            <li><a class="title" href="#testimonials">Comments</a></li>
+            <li><a class="title" href="#contact">Contact</a></li>
+              <li><a class="title login" href="#">Login</a></li>
+              <li><a class="title sign" href="#">Sign Up</a></li>
+            
+          </ul>
+        </div>
+        <!-- /menu -->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- PÁGINA HOME -->
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="assets/fotos/MacBook Pro 16.png"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">
+              A place to learn more about money.
+            </h2>
+            <p>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti perspiciatis alias nostrum ipsum tempore at reiciendis consequuntur ipsam inventore recusandae ullam quod nemo veritatis doloremque, tenetur praesentium minima dolor provident.
+            </p>
+            <a class="github" href="#">Github</a>
+            <a class="download" href="#">Donwload</a>      
+          </div>
+        </div>
+      </section>
+
+      <!-- PÁGINA SERVIÇOS -->
+
+
+      <!-- !!!!!!!!!!! ALGUNS ICONS NAO CONSEGUI FAZER FUNCIONAR. !!!!!!!!!!! -->
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Services</h2>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <i class="fa-solid fa-sliders-up"></i>
+              <h3 class="title">Simulations</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              </p>
+            </div>
+            <div class="card">
+              <i class="fa-solid fa-wallet"></i>
+              <h3 class="title">Financial Control</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.               
+              </p>
+            </div>
+            <div class="card">
+              <i class="fa-solid fa-arrows-repeat"></i>
+              <h3 class="title">Money conversion</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.               
+              </p>
+            </div>
+            <div class="card">
+              <i class="fa-solid fa-thumbs-up"></i>
+              <h3 class="title">Easy and intuitive</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PÁGINA DE TESTEMUNHOS -->
+      <section class="section" id="testimonials">
+        <div class="container swiper">
+          <header>
+            <h2 class="title">Our users says</h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Rerum blanditiis saepe nam excepturi explicabo ipsa error
+                    ipsam neque
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/67.jpg"
+                      alt="Foto de Wanessa Souza"
+                    />
+                    Wanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Rerum blanditiis saepe nam excepturi explicabo ipsa error
+                    ipsam neque
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/37.jpg"
+                      alt="Foto de Franciele Venega"
+                    />
+                    Franciele Venega
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Rerum blanditiis saepe nam excepturi explicabo ipsa error
+                    ipsam neque
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/81.jpg"
+                      alt="Fotos de Valeska Fabris"
+                    />
+                    Valeska Fabris
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+
+            <!-- If we need pagination -->
+            <!-- DIV QUE TAMBEM PEGUEI NOS DOCS DO SITE DO CARROSSEL, ELA É NECESSARIA PARA APARECER O ICON E SEU EFEITO -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTATOS -->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente!</h2>
+            <p>
+              Entre em contato com a Espaço Fitness, queremos tirar suas dúvidas, ouvir suas críticas e sugestões.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5521999999999&text=Olá! Gostaria de agendar um horário"
+              class="button"
+              target="_blank"
+              ><i class="icon-whatsapp"></i>Entrar em contato</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i>(21) 2018-9023 </li>
+              <li><i class="icon-map-pin"></i>Rua Almirante Tefé, 680</li>
+              <li><i class="icon-mail"></i>niteroi@rj.senac.br</li>
+            </ul>
+          </div>
+        </div>
+
+      </section>
+    </main>
+
+    <footer class="section">
+      <div class="container grid">
+       <!-- AQUI ONDE FICAR AS ULS COM OQ VC BOTOU NO FIGMA MAS NAO CONSEGUI FAZER FICAR CERTINHO COMO ESTAVA LÁ -->
+        <div class="social">
+          <p>Social Medias</p>
+          <a href="https://facebook.com.br" target="_blank"
+            ><i class="icon-facebook"></i
+          ></a>                   
+          <a href="https://youtube.com.br" target="_blank"
+            ><i class="icon-youtube"></i
+          ></a>
+          <a href="https://instagram.com.br" target="_blank"
+            ><i class="icon-instagram"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <footer class="part2">
+        <div>
+        <div class="text">
+          <p>&copy; Copyright by Matheus Ribeiro and Vinicius Bastos.</p>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- ICON DO VOLTAR AO TOPO -->
+    <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+    <script
+      src="https://kit.fontawesome.com/04d53b9088.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
